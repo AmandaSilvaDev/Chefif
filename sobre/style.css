@@ -1,0 +1,92 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+/* Cabeçalho */
+header {
+    background-color: #D6F4B3;
+    color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Chefif {
+    margin-top: 10px;
+}
+
+.ChefifLogo {
+    display: flex;
+    gap: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+/* Efeito ao passar o mouse */
+nav ul li a {
+    text-decoration: none;
+    color: #1D1D1D;
+    transition: transform 0.2s, border-bottom-color 0.2s;
+}
+
+nav ul li a:hover {
+    font-size: 1.1em;
+    border-bottom: 2px solid #00FF00;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.titulo1{
+    
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.aluno {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: inline-block;
+    width: 48%; /* Defina a largura desejada para cada aluno */
+    margin: 1%; /* Margem entre os alunos */
+    text-align: center; /* Alinhe o conteúdo no centro */
+    box-sizing: border-box;
+}
+
+.aluno img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.aluno h2 {
+    color: #3498db;
+}
+
+.aluno a {
+    display: block;
+    text-decoration: none;
+    color: #3498db;
+    margin-top: 10px;
+}

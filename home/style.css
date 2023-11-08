@@ -1,0 +1,203 @@
+/* Reset de estilos básicos */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #D6F4B3;
+    color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Cabeça*/
+.Chefif{
+    margin-top: 10px;
+}
+.ChefifLogo{
+    display: flex;
+    gap: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+/* efeito ao passar o mouse */
+nav ul li a {
+    text-decoration: none;
+    color: #1D1D1D;
+    transition: transform 0.2s, border-bottom-color 0.2s; /* Adiciona uma transição suave */
+}
+
+nav ul li a:hover {
+    font-size: 1.1em;
+    border-bottom: 2px solid #00FF00; /* Adiciona a borda verde na parte inferior */
+}
+
+
+.btnEntrar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #88C63B;
+    color: #1D1D1D;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-image: url('img/iconEntrar.png'); /* Caminho para o ícone */
+    background-size: 20px 20px; /* Tamanho do ícone */
+    background-repeat: no-repeat;
+    background-position: 8px center; /* Posição do ícone */
+    padding-left: 40px; /* Espaçamento para acomodar o ícone */
+}
+.btnEntrar:hover {
+    border-bottom: 2px solid #70A430;
+}
+/*Cabeça*/
+
+/*capa*/
+.capa{
+    background-color: #D6F4B3;
+    border: 1px solid #ddd;
+    text-align: start;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.capa h2 {
+    margin-bottom: 20px;
+    font-size: 52px; /* Ajusta o tamanho da fonte do título */
+    color: #333; /* Cor do título */
+}
+
+.capa p {
+    font-size: 24px; /* Ajusta o tamanho da fonte do parágrafo */
+    color: #555; /* Cor do parágrafo */
+}
+
+.capa a{
+    margin-top: 20px;
+}
+
+/*capa*/
+
+/*DeOutros*/
+.capa2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.capa2 h3{
+    color: #70A430;
+    padding-bottom: 2%;
+}
+.capa2 h2{
+    font-size: 42px;
+    margin-bottom: 4%;
+}
+.capa2 p {
+    color: #555;
+}
+
+.vitrine{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+}
+
+.prato1{
+    background: linear-gradient(0deg,  rgb(206, 206, 206) 30%, transparent 50%);
+}
+
+.prato2{
+    background: linear-gradient(0deg,  rgb(206, 206, 206) 30%, transparent 50%);
+
+}
+.prato3{
+    background: linear-gradient(0deg,  rgb(206, 206, 206) 30%, transparent 50%);
+
+}
+.prato4{
+    background: linear-gradient(0deg,  rgb(206, 206, 206) 30%, transparent 50%);
+
+}
+
+/* Estilo base para todas as imagens da vitrine */
+.vitrine img {
+    transition: transform 0.3s ease-in-out; /* Suaviza a animação de aumento */
+    display: block; /* remove o espaço abaixo da imagem */
+}
+
+/* Efeito de zoom quando o mouse passa por cima */
+.vitrine img:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% */
+}
+
+/*última parte*/
+.vitrine2{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.imgContainer{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+}
+.imgContainer img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+.textDiv{
+    position: absolute;
+    justify-content: center;
+    color: white;
+    padding: 7%;
+    font-size: 32px;
+}
+/*parte de baixo*/
+footer a{
+    text-decoration: none;
+    color: #1D1D1D;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+footer h3 {
+    font-weight: bold;
+}

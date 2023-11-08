@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Receitas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- cabeçalho -->
+        <div class="ChefifLogo">
+            <h1 class="Chefif">Chefif</h1>
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <div class="Navegacao">
+            <nav>
+                <ul>
+                    <li><a href="/home/index.html">Home</a></li> 
+                    <li><a href="/geladeira/index.html">Geladeira</a></li>
+                    <li><a href="/sobre/index.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <h1 class="titulo1">Digite um ingrediente<br>para encontrar receitas e suas calorias.</h1>
+    
+        
+    
+<samp></samp>
+    <div id="Entrada">
+        
+
+        <label for="txtEntrada">Pesquisar:</label>
+        <input type="text" id="txtEntrada" placeholder="Digite o nome do ingrediente">
+        <button id="btnEntrada">Pesquisar</button>
+    </div>
+
+    <table id="tabela">
+        <thead>
+            <tr>
+                <th>Nome da Receita</th>
+                <th>Calorias/100g</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Os resultados da pesquisa serão exibidos aqui via JavaScript -->
+        </tbody>
+    </table>
+
+    
+    <footer>
+        <p>&copy; Obrigado pela Oportunidade</p>
+    </footer>
+
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>

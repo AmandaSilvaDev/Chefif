@@ -1,0 +1,150 @@
+/* Reset de estilos básicos */
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+/* Cabeçalho */
+header {
+    background-color: #D6F4B3;
+    color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Chefif {
+    margin-top: 10px;
+}
+
+.ChefifLogo {
+    display: flex;
+    gap: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+/* Efeito ao passar o mouse */
+nav ul li a {
+    text-decoration: none;
+    color: #1D1D1D;
+    transition: transform 0.2s, border-bottom-color 0.2s;
+}
+
+nav ul li a:hover {
+    font-size: 1.1em;
+    border-bottom: 2px solid #00FF00;
+}
+
+.btnEntrar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #88C63B;
+    color: #1D1D1D;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-image: url('img/iconEntrar.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    padding-left: 40px;
+}
+
+
+
+/* Parte de Baixo (Footer) */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+footer h3 {
+    font-weight: bold;
+}
+
+/* Tabela */
+#Entrada {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#tabela {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    width: 70%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#tabela th, #tabela td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+#tabela th {
+    background-color: #333;
+    color: #fff;
+}
+
+#tabela tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tabela tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+#txtEntrada {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#btnEntrada {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#btnEntrada:hover {
+    background-color: #555;
+}
+.titulo1{
+    
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
